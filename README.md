@@ -1,11 +1,17 @@
 # terraform-ecs-fargate
 deploying nginx:latest to ecs cluster using terrraform
+\
+
 
 **What is the Objective ?**
+
 To launch a nginx server through ecs cluster served by load balancer and all the resources managed by terraform. 
+
+\
 
 
 **What does the script do ?**
+
 The scipt deploys following 
 - Application Load Balancer
 - ECS cluster 
@@ -16,12 +22,14 @@ The scipt deploys following
 
 User --> ALB -> ECS (VPC) nginx server
 
+\
+
 
 **How to run the script ?**
 
 1. Clone the terraform-ecs-fargate github repository.
 
->git clone https://github.com/AjeetK/terraform-ecs-fargate.git
+>git clone https://github.com/tanmaybangale/terraform-ecs-fargate.git \
 >cd terraform-ecs-fargate
 
 
